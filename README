@@ -1,0 +1,5 @@
+For some reason openoffice wasn't letting me use really really big font sized, so I made a little pygame app that let me type big letters for phonics teaching purposes.
+
+* tab cycles colors
+* backspace deletes letters
+* escape quits
