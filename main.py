@@ -36,7 +36,7 @@ while(True):
             c = chr(k)
             if k == pygame.K_ESCAPE:
                 exit()
-            if c in "abcdefghijklmnopqrstuvqxyz":
+            if c in "abcdefghijklmnopqrstuvwxyz":
                 word += c
             elif event.key == 8: # backspace
                 word = word[:-1]
