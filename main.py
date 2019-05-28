@@ -50,10 +50,10 @@ while(True):
             else:
                 print(event.key)
 
-    font_size = int(height / 1.5)
+    font_size = int(int(height * 1.25) * 1/(0.25 * len(word) + 1))
     col = colors[curcolor % len(colors)]
     t = make_text(word, font_size, col)
     wordx = get_center_x(t.get_width(), 1, 1)
-    wordy = (height / 2) - (font_size / 2)
+    wordy = (height / 2) - (font_size / 3)
     screen.blit(t, (wordx, wordy))
     pygame.display.flip()
